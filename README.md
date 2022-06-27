@@ -1,4 +1,4 @@
-# maxentlabs.ai
-# Make Building Information retrieval systems painless. 
+# maxentlabs
+### Make Building Information retrieval systems painless. 
 
-Coming soon! 
+### Coming soon! 
