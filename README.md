@@ -1,4 +1,2 @@
 # maxentlabs
-### Make Building Information retrieval systems painless. 
-
-### Coming soon! 
+_Make Building Information retrieval systems painless_
