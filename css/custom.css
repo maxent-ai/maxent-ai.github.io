@@ -1,24 +1,41 @@
-#lightSwitch {
-  transform: scale(1.8);
+body {
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 50px auto;
+  max-width: 600px;
+  background-color: rgb(242, 239, 231);
+  font-family: "Helvetica Neue";
+}
+
+#maincontent {
+  max-width: 80em;
+  margin: 15 auto;
 
 }
 
-.logo {
-  filter: invert(55%);
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.custom-theme.bg-light {
-  background-color: darkslategray !important;
-  border-radius: 3px;
-  color: gainsboro;
-  text-decoration: underline;
+.text-class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
 
 }
 
-.custom-theme.bg-dark {
+.list-class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
 
-  background-color: blanchedalmond !important;
-  box-shadow: 10px 5px 5px rgba(246, 255, 219, 0.5);
-  color: dimgray;
-  text-decoration: underline;
 }
