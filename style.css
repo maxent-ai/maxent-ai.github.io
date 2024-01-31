@@ -13,6 +13,7 @@
     text-decoration-thickness: 2px;
   }
 
+
 .link-font{
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -113,7 +114,6 @@
   text-justify: inter-word;
   text-align:justify;
     /* For medium screens and larger */
-  width: 40%;
 }
 
 .profile-name-font{
@@ -168,35 +168,51 @@
 }
 
 @media (max-width: 1024px) and (min-width: 640px) {
-  /* Small screen font size adjustment */
-  .title-font { 
-    font-size: 100px;
+
+    /* Small screen font size adjustment */
+    .link-font {
+      font-size: 28px;
+    }
+  
+    .bottom-font{
+      font-size: 20px;  
+    }
+  
+    .title-font{
+      font-size: 80px;
+    }
+    .description-font{
+      font-size: 20px;
+    }
+  
+    .subtitle-font{
+      font-size: 20px;
+    }
+  
+    .header-font{
+      font-size: 80px;
+    }
+    .subheader-font{
+      font-size: 32px;
+    }
+  
+    .button-font{
+      font-size: 30px;
+    }
+  
+    .identity-font {
+      width: 100%;
   }
 
-  .subtitle-font {
-    font-size: 40px;
+  .profile-name-font{
+    font-size: 20px;
+  }
+  .process-name-font{
+    font-size: 20px;
   }
 
-  .header-font {
-    font-size: 80px;
+    
   }
-
-  .subheader-font {
-    font-size: 40px;
-  }
- 
-  .button-font {
-    font-size: 40px;
-  }
-
-  .identity-font {
-    width: 100%;
-}
-
-.process-name-font{
-  font-size: 20px;
-}
-}
 
 /* Small screens */
 @media (max-width: 640px) {
@@ -206,14 +222,14 @@
   }
 
   .bottom-font{
-    font-size: 18px;  
+    font-size: 20px;  
   }
 
   .title-font{
     font-size: 80px;
   }
   .description-font{
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .subtitle-font{
