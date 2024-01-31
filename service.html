@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>MAXENT - An AI & Product consulting</title>
 </head>
 
-<body class="bg-black flex flex-col min-h-screen">
+<body class="bg-black flex flex-col">
     <nav class="bg-black border-gray-200 py-5">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -55,67 +54,76 @@
             <!-- <a href="#" class="navbar-font hover:underline underline-offset">Work</a> -->
             <a href="/process.html" class="navbar-font hover:underline underline-offset">Process</a>
         </div>
-      </nav>
+    </nav>
 
       <!-- Main Content -->
-
-      <div class="flex flex-col items-center justify-center pt-10 space-y-3 md:space-y-5">
-        <div class="image">
-            <img src="assets/Vector.svg" alt="Maxent Logo" class="w-125">
+    <section class="relative">
+        <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+            <p class="identity-font break-words" style="width: 50%;">We collaborate closely with you to plan, build, and test, 
+                working as an integral part of your team. Our tried-and-tested process ensures that your vision comes to life seamlessly. </p>
         </div>
+    </section>
 
-        <div class="title">
-            <p class="header-font">Maxent</p>
-        </div>
-        <div class="w-10/12 xl:w-4/12 mx-auto">
-            <div class="subheader">
-            <p class="subheader-font">An AI and Product consulting collective.</p>
-            </div>
-        </div>
+    <section class="relative py-5">
+        <div class="max-w-screen-xl flex flex-col md:flex-row items-start justify-between mx-auto p-4 space-x-10 md:space-x-14">
+            
+            <!-- left column -->
+            <div class="w-full md:w-2/4">
+                <div class="flex flex-col justify-between mx-auto">
+                    <div class="identity-font font-bold text-left" style="width: 100%;">Product Strategy & Growth</div>
+                </div> <!-- 50% width column for all screen sizes -->
+                <div class="flex items-center justify-between mx-auto py-5">
+                    <div class="description-font" style="width: 100%;">Developing a winning product takes much more than just having a great idea. 
+                        Crafting an effective product strategy that aligns to your business goals is essential to navigate the winding road from concept to launch and beyond.
+                    </div>
+                </div>
 
-        <div class="w-10/12 xl:w-4/12 mx-auto"> <!-- Centering container -->
-            <div class="description text-white text-center">
-                <p class="description-font text-justify">We help you to achieve big goals that are people-centric, 
-                    rigorously tested, and expertly crafted. From groundbreaking product development 
-                    to world-class AI solutions, we minimize limits and maximize your potential.
+                <p class="service-tag mb-4">Key Services</p>
+                <p class="service-tag flex-auto space-x-2 pb-5" style="width: 100%;">
+                    <span>Product Strategy</span><span>|</span>
+                    <span>UX Optimization</span><span>|</span>
+                    <span>Product Led Growth </span><span>|</span>
+                    <span>Lifecycle Communication Design</span>
                 </p>
-            </div>
-        </div>
 
-        <div class="w-10/12 xl:w-4/12 mx-auto pt-3 md:pt-5"> 
-            <div class="tagline">
-                <p class="tagline-font">Want to maximize your potential?</p>
-            </div>
-        </div>
+                <p  class="service-tag">
+                    Read More. 
+                </p>
 
-        <div class="w-10/12 xl:w-4/12 mx-auto space-y-0"> 
-                <a href="https://twitter.com/maxentlabs?subject=Hello%20Maxent!">
-                    <p  class="button-font">
-                        Get in touch. 
-                    </p>
-                </a>
-        </div>
-    </div>
-
-    <footer class="bg-black py-5 mt-auto">
-        <div class="max-w-screen-xl rtl:space-x-reverse flex items-center justify-end mx-auto p-4">
-            <div class="flex space-x-4">
-                <a href="mailto:info@maxentlabs.com" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-envelope text-white text-2xl"></i>
-                </a>
-                <a href="https://github.com/maxent-ai" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github text-white text-2xl"></i>
-                </a>
-                <a href="https://www.linkedin.com/company/maxentlabs/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin text-white  text-2xl"></i>
-                </a>
-                <a href="https://twitter.com/maxentlabs?subject=Hello%20Maxent!" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-twitter text-white  text-2xl"></i>
-                </a>
             </div>
-            <!-- Other footer content -->
+
+            <!-- right column -->
+            <div class="w-full md:w-2/4">
+                <div class="flex flex-col justify-between mx-auto">
+                    <div class="identity-font font-bold text-left" style="width: 100%;">Ai Development</div>
+                </div> <!-- 50% width column for all screen sizes -->
+                <div class="flex items-center justify-between mx-auto py-5">
+                    <div class="description-font" style="width: 100%;">
+                        Whether you are looking to optimize workflows or enhance customer interactions, we are committed to helping you unlock the potential of AI within your organization. We devise tailored AI strategies by comprehending your business objectives, analyzing your data and implementing custom AI solutions to address your business challenges.
+                    </div>
+                </div>
+
+                <p class="service-tag mb-4">Key Services</p>
+               
+                <p class="service-tag flex-auto space-x-2 pb-5" style="width: 100%;">
+                    <span>Use Case Discovery</span><span>|</span>
+                    <span>Data Preparation</span><span>|</span>
+                    <span>Model Development </span><span>|</span>
+                    <span>AI Integration</span><span>|</span>
+                    <span>Generative Ai Solutions</span><span>|</span>
+                    <span>Ai Strategy</span>
+                </p>
+
+                <p  class="service-tag">
+                    Read More. 
+                </p>
+
+            </div>
+
         </div>
-    </footer>
+    </section>
+
+    
 
       <script>
         // Toggle hamburger menu and mobile menu
