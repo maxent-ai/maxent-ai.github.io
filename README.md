@@ -1,2 +1,2 @@
 # maxentlabs
-_Make Building Information retrieval systems painless_
+_Maximize Ideas and Minimize Limits._
